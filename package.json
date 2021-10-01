@@ -1,0 +1,24 @@
+{
+  "name": "trololors",
+  "version": "1.0.0",
+  "type": "module",
+  "description": " Not the fastest terminal colors library. Don't even ask about size.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "wasm-pack build trololors --target nodejs",
+    "release": "wasm-pack pack trololors && wasm-pack publish trololors"
+  },
+  "devDependencies": {
+    "ansi-colors": "^4.1.1",
+    "benchmark": "^2.1.4",
+    "chalk": "^4.1.2",
+    "cli-color": "^2.0.0",
+    "colorette": "^2.0.13",
+    "kleur": "^4.1.4",
+    "nanocolors": "^0.2.12",
+    "picocolors": "^0.1.0",
+    "wasm-pack": "^0.10.1",
+    "yoctocolors": "^0.1.1"
+  }
+}
