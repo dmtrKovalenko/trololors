@@ -14,7 +14,7 @@
 
 # Why? 
 
-Don't even try to use it. But maybe you wan't say to your boss that you used RUST for your next projects. 
+Don't even try to use it. But maybe you need to say to your boss that you used RUST for some project. 
 
 ## Features
 
